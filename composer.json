@@ -1,0 +1,22 @@
+{
+    "name": "chirag/module-events",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "chirag@czargroup.net",
+            "name": "Czargroup"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Chirag\\Events\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
